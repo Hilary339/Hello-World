@@ -5,5 +5,6 @@
 #include<stdio.h>  //引入标准库，printf函数就位于该库中
 int main()         //设置主函数main
 {
-  printf("Hello,World!")    //调用标准库函数，注意括号内应是双引号
+  printf("Hello,World!");    //调用标准库函数，注意括号内应是双引号,别忘了；结尾
+  return 0;      //用return来结尾。
 }
